@@ -23,10 +23,6 @@ struct Group {
     var endDate:String
 }
 
-
-var arrGroup : [Group] =
-    [group1, group2, group3, group4, group5, group6, group7, group8, group9, group10]
-
 let group1 : Group = Group(title : "밥먹으실분 ", location : "사근동", curPersonNumber : 3, maxPersonNumber : 5, endDate : "2019/04/29")
 let group2 : Group = Group(title : "게임 하실분", location : "사근동", curPersonNumber : 7, maxPersonNumber : 10, endDate : "2019/04/29")
 let group3 : Group = Group(title : "놀러 가실분", location : "사근동", curPersonNumber : 3, maxPersonNumber : 5, endDate : "2019/04/29")
@@ -38,4 +34,6 @@ let group8 : Group = Group(title : "떡볶이파티", location : "사근동", cu
 let group9 : Group = Group(title : "치킨머글사람", location : "사근동", curPersonNumber : 3, maxPersonNumber : 3, endDate : "2019/04/29")
 let group10 : Group = Group(title : "아이스크림파티", location : "사근동", curPersonNumber : 1, maxPersonNumber : 2, endDate : "2019/04/29")
 
+var arrGroup : [Group] =
+    [group1, group2, group3, group4, group5, group6, group7, group8, group9, group10]
 

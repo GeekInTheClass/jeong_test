@@ -16,6 +16,7 @@
 		571D147F22685F470070C99D /* TeamFindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D147E22685F470070C99D /* TeamFindUITests.swift */; };
 		571D148D22685F6A0070C99D /* DataCenterswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D148C22685F6A0070C99D /* DataCenterswift.swift */; };
 		571D148F226869D40070C99D /* GroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D148E226869D40070C99D /* GroupTableViewController.swift */; };
+		F34FBCC6226879D4007F9FA9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FBCC5226879D4007F9FA9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		571D148022685F470070C99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		571D148C22685F6A0070C99D /* DataCenterswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenterswift.swift; sourceTree = "<group>"; };
 		571D148E226869D40070C99D /* GroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewController.swift; sourceTree = "<group>"; };
+		F34FBCC5226879D4007F9FA9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				571D145E22685F440070C99D /* AppDelegate.swift */,
 				571D146022685F440070C99D /* ViewController.swift */,
 				571D146222685F440070C99D /* Main.storyboard */,
+				F34FBCC5226879D4007F9FA9 /* DetailViewController.swift */,
 				571D148E226869D40070C99D /* GroupTableViewController.swift */,
 				571D148C22685F6A0070C99D /* DataCenterswift.swift */,
 				571D146522685F470070C99D /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 			files = (
 				571D146122685F440070C99D /* ViewController.swift in Sources */,
 				571D148F226869D40070C99D /* GroupTableViewController.swift in Sources */,
+				F34FBCC6226879D4007F9FA9 /* DetailViewController.swift in Sources */,
 				571D148D22685F6A0070C99D /* DataCenterswift.swift in Sources */,
 				571D145F22685F440070C99D /* AppDelegate.swift in Sources */,
 			);
