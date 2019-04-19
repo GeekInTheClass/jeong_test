@@ -94,8 +94,11 @@ class GroupTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-        let dstVC = segue.destination as! DetailViewController
-        let selectedInfo = GroupTableViewController(self.tableView.indexPathForSelectedRow?.row)
+        if let dstVC = segue.destination as? DetailViewController{
+            if let selectedInfo = self.tableView.indexPathForSelectedRow?.row{
+                dstVC.rowSelected = arrGroup[selectedInfo]
+            }
+        }
         
         
         

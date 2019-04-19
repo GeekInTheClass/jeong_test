@@ -9,13 +9,26 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var image: UIImageView!
+    
+    var rowSelected: Group?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        if let group = rowSelected{
+            label1.text = group.title
+            label2.text = group.location
+            image.image = UIImage(named: "abc")
+        }
+    }
 
     /*
     // MARK: - Navigation
